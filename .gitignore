@@ -1,0 +1,118 @@
+# Node Modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Firebase Admin SDK service account key
+config/serviceAccountKey.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Flutter Related
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-*
+.packages
+.pub-cache
+.pub/
+build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+android/.gradle/
+android/app/debug/
+android/app/release/
+android/build/
+android/key.properties
+android/local.properties
+
+# Flutter & Dart Dependencies
+*.lock
+pubspec.lock
+pubspec.yaml.orig
+
+# Firebase Cache & Emulators
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+.firebase/
+firestore.indexes.json
+firestore.rules
+storage.rules
+
+# Firebase Service Account Key (Base64 encoded)
+firebase_key_base64.txt
+
+# IntelliJ / VS Code
+.idea/
+.vscode/
+*.iml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Temporary Files & Cache
+tmp/
+temp/
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+*.bak
+*.old
+*.orig
+
+# Test Coverage
+coverage/
+.dart_tool/
+
+# Build Output
+dist/
+out/
+tmp/
+temp/
+
+# Flutter Generated Files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+.packages
+
+# Firebase Functions
+functions/node_modules/
+functions/lib/
+functions/.env
+functions/*.log
+
+# Git Hooks
+.husky/
+.husky/_/
+
+# Web
+web/assets/
+web/.dart_tool/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# User-specific
+*.sublime-workspace
+*.sublime-project
+.nodemonignore
